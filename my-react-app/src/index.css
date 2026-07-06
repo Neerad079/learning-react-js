@@ -1,0 +1,78 @@
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+.card{
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 250px;
+  box-shadow: 5px 5px 5px dimgrey;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+}
+.daniel{
+  max-width: 60%;
+  height: auto;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(164, 164, 164);
+  width: 100%;
+  box-sizing: border-box;
+}
+.list>li{
+  flex: 1;
+  text-align: center;
+  /* background-color: white; */
+
+}
+.list>li>a{
+  color:rgb(26, 25, 21);
+}
+.student p{
+  margin: 0;
+}
+.welcome{
+  background-color: rgb(114, 188, 3);
+  color: white;
+}
+.login{
+  background-color: red;
+  color: white;
+}
