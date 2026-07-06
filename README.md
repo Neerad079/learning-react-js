@@ -8,6 +8,13 @@ Practice repo documenting my React.js learning
 - Props & data flow
 - Conditional rendering
 - List rendering (map, keys)
+- - Click events
+- React Hooks
+  - `useState`
+- `onChange` event handler
+- Controlled inputs
+- Color picker using `useState` and `onChange`
+- Counter using `useState`
 
 ## Structure
 
